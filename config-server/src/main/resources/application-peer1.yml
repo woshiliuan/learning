@@ -1,0 +1,10 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8769/eureka/
+  instance:
+    hostname: peer1
+server:
+  port: 8761
+spring:
+  profiles: peer1
